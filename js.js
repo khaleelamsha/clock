@@ -1,3 +1,13 @@
+function toggleClass(){
+const body  = document.querySelector('body')
+body.style.transition = "all 0.2s";
+body.classList.toggle('light');
+
+}
+
+
+
+
         const deg = 6;
         const hr = document.querySelector('#hr');
         const mn = document.querySelector('#mn');
